@@ -1,0 +1,19 @@
+{
+  "qs": {
+    "search": "{{parameters.search}}"
+  },
+  "log": {
+    "sanitize": [
+      "request.headers.authorization"
+    ]
+  },
+  "url": "/api/users",
+  "body": {},
+  "method": "GET",
+  "baseUrl": "https://www.example.com",
+  "headers": {},
+  "response": {
+    "output": "{{item}}",
+    "iterate": "{{body.users}}"
+  }
+}
