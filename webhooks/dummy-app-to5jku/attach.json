@@ -1,0 +1,15 @@
+{
+  "log": {
+    "sanitize": [
+      "request.headers.authorization"
+    ]
+  },
+  "output": "{{body-attach}}",
+  "baseUrl": "https://www.example.com",
+  "metadata": {
+    "account": {
+      "type": "oauth",
+      "version": 2
+    }
+  }
+}
