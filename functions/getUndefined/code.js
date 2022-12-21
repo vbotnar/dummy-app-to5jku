@@ -1,0 +1,3 @@
+function getUndefined() {
+	return undefined;
+}
