@@ -1,0 +1,25 @@
+{
+  "qs": {
+    "{{...}}": "{{toCollection(parameters.qs, 'key', 'value')}}"
+  },
+  "log": {
+    "sanitize": [
+      "request.headers.authorization"
+    ]
+  },
+  "url": "https://www.example.com/{{parameters.url}}",
+  "body": "{{parameters.body}}",
+  "type": "text",
+  "method": "{{parameters.method}}",
+  "baseUrl": "https://www.example.com",
+  "headers": {
+    "{{...}}": "{{toCollection(parameters.headers, 'key', 'value')}}"
+  },
+  "response": {
+    "output": {
+      "body": "{{body}}",
+      "headers": "{{headers}}",
+      "statusCode": "{{statusCode}}"
+    }
+  }
+}
