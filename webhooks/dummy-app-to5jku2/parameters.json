@@ -1,0 +1,12 @@
+[
+  {
+    "name": "__IMTCONN__",
+    "type": "account:app#dummy-app-to5jku2",
+    "label": "Connection",
+    "options": {
+      "scope": [],
+      "nested": []
+    },
+    "required": true
+  }
+]
