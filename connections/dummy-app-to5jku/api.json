@@ -1,0 +1,11 @@
+{
+  "log": {
+    "sanitize": [
+      "request.headers.x-api-key"
+    ]
+  },
+  "url": "https://www.example.com/api/whoami",
+  "headers": {
+    "x-api-key": "{{parameters.apiKey}}"
+  }
+}
