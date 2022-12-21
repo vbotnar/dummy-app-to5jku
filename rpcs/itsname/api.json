@@ -1,0 +1,20 @@
+{
+  "qs": {},
+  "log": {
+    "sanitize": [
+      "request.headers.authorization"
+    ]
+  },
+  "url": "/api/users",
+  "body": {},
+  "method": "GET",
+  "baseUrl": "https://www.example.com",
+  "headers": {},
+  "response": {
+    "output": {
+      "label": "{{item.name}}",
+      "value": "{{item.id}}"
+    },
+    "iterate": "{{body.users}}"
+  }
+}
