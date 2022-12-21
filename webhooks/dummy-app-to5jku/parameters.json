@@ -1,0 +1,20 @@
+[
+  {
+    "name": "__IMTCONN__",
+    "type": "account:app#dummy-app-to5jku2",
+    "label": "Connection",
+    "options": {
+      "scope": [
+        "blabla"
+      ],
+      "nested": [
+        {
+          "name": "blablawebhook",
+          "type": "text",
+          "label": "Blabla"
+        }
+      ]
+    },
+    "required": true
+  }
+]
